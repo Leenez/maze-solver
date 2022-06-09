@@ -1,9 +1,9 @@
 MAZE SOLVER
-
+-----------
 
 
 Description:
-
+------------
 Maze solver finds a route through a maze given in a .txt file, or tell if there is no possible route available.
 
 In the map file ‘#’ represents a block, ‘ ‘ (space) represents movable space
@@ -16,7 +16,7 @@ The solution is written to a .txt file or alternatively the user is informed if 
 
 
 How to run maze solver:
-
+-----------------------
 Running the script has only been tested with python version 3.10.2
 
 Open a command prompt to the project folder and run the script with command:
@@ -32,7 +32,7 @@ python main.py data/maze1.txt
 
 
 How to run unittest cases:
-
+--------------------------
 Open a command prompt to the project folder and give a command:
 
 python -m unittest discover test
